@@ -19,6 +19,9 @@ For build image you need:
 4. For check correctness use: `docker ps`
 
 So now you can knock on your docker server address on port 8080.
+You can change the text on site by edit <absolute path to directory>/DockerTest/resources/response.json
+Edit the file, save, and then update the page
+
 For stop container use:
 1. docker ps -qa (To check id of container)
 2. docker stop <id of container>
