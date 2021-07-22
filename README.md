@@ -2,11 +2,11 @@
 
 ### Description of all files:
 
-Dockerfile      - file for "docker build".
-app.py          - MiniWebServer with ports 8080 on flask.
-requirements.txt- The list of python requirements.
-resources       - The folder where the content comes from to fill the web-page.
-
+- Dockerfile      - file for "docker build".
+- app.py          - MiniWebServer with ports 8080 on flask.
+- requirements.txt- The list of python requirements.
+- resources       - The folder where the content comes from to fill the web-page.
+ 
 ---------------------------------
 
 For build image you need:
