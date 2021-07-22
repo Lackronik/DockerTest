@@ -9,7 +9,7 @@
  
 ---------------------------------
 
-For build image you need:
+### For build image you need:
 1. The first what you need its get the files from repo
  `git clone https://github.com/Lackronik/DockerTest.git`
 (for the next updates use git pull from DockerTest directory)
