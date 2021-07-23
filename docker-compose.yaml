@@ -1,0 +1,13 @@
+version: "3" 
+
+volumes:
+        web:
+
+services:
+        web-hello:
+                build: DockerTest/
+                restart: always
+                ports:
+                        - 8080:8080
+                environment:
+                        - TZ=Europe/Kiev
