@@ -5,7 +5,7 @@ volumes:
 
 services:
         web-hello:
-                build: DockerTest/
+                build: web_app/
                 restart: always
                 ports:
                         - 8080:8080
