@@ -5,6 +5,7 @@ volumes:
 
 services:
         web-hello:
+                container_name: web-test-app
                 build: web_app/
                 restart: always
                 ports:
